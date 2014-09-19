@@ -22,7 +22,8 @@ public class A {
         
         System.out.println("Hvor gammel er du?: ");
         int sc = new Scanner(System.in).nextInt();
-        System.out.println("Så er du " + sc + 40 + "om 40 år");
+        sc += 40;
+        System.out.println("Så er du " + sc + " om 40 år");
     }
     
 

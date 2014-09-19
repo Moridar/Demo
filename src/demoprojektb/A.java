@@ -11,5 +11,6 @@ package demoprojektb;
  * @author Computer
  */
 public class A {
+    String Bobbie = null;
     
 }

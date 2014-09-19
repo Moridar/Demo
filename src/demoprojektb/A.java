@@ -5,12 +5,22 @@
  */
 
 package demoprojektb;
-
+import java.util.Scanner;
 /**
  *
  * @author Computer
  */
 public class A {
     String Bobbie = null;
+
+    public A() {
+        
+        System.out.println("Hvor gammel er du?: ");
+        String sc = new Scanner(System.in).nextLine();
+        System.out.println("Så er du " + sc + 40 + "om 40 år");
+    }
+    
+
+    
     
 }

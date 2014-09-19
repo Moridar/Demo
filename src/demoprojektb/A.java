@@ -11,6 +11,13 @@ import java.util.Scanner;
  * @author Computer
  */
 public class A {
+    String Bobbie;
+
+    public A(String text) {
+        
+        System.out.println(text);
+    }
+    
     String Bobbie = null;
 
     public A() {

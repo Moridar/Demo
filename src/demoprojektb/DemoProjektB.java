@@ -16,7 +16,7 @@ public class DemoProjektB {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        A a = new A("God weekend mand.");
+        A a = new A();
     }
     
 }
